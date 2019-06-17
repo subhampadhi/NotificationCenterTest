@@ -14,6 +14,9 @@
 		0F4DD41D22B7716F00D083D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F4DD41B22B7716F00D083D5 /* LaunchScreen.storyboard */; };
 		0F4DD42822B7716F00D083D5 /* NotificationCenterTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4DD42722B7716F00D083D5 /* NotificationCenterTestTests.swift */; };
 		0F4DD43322B7716F00D083D5 /* NotificationCenterTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4DD43222B7716F00D083D5 /* NotificationCenterTestUITests.swift */; };
+		0F4DD44122B7722300D083D5 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4DD44022B7722300D083D5 /* FirstVC.swift */; };
+		0F4DD44322B774DF00D083D5 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4DD44222B774DF00D083D5 /* SecondVC.swift */; };
+		0F4DD44522B776E900D083D5 /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4DD44422B776E900D083D5 /* ThirdVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		0F4DD42E22B7716F00D083D5 /* NotificationCenterTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationCenterTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F4DD43222B7716F00D083D5 /* NotificationCenterTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterTestUITests.swift; sourceTree = "<group>"; };
 		0F4DD43422B7716F00D083D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F4DD44022B7722300D083D5 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		0F4DD44222B774DF00D083D5 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		0F4DD44422B776E900D083D5 /* ThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				0F4DD41922B7716F00D083D5 /* Assets.xcassets */,
 				0F4DD41B22B7716F00D083D5 /* LaunchScreen.storyboard */,
 				0F4DD41E22B7716F00D083D5 /* Info.plist */,
+				0F4DD44022B7722300D083D5 /* FirstVC.swift */,
+				0F4DD44222B774DF00D083D5 /* SecondVC.swift */,
+				0F4DD44422B776E900D083D5 /* ThirdVC.swift */,
 			);
 			path = NotificationCenterTest;
 			sourceTree = "<group>";
@@ -257,7 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F4DD41522B7716E00D083D5 /* ViewController.swift in Sources */,
+				0F4DD44122B7722300D083D5 /* FirstVC.swift in Sources */,
+				0F4DD44322B774DF00D083D5 /* SecondVC.swift in Sources */,
 				0F4DD41322B7716E00D083D5 /* AppDelegate.swift in Sources */,
+				0F4DD44522B776E900D083D5 /* ThirdVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
